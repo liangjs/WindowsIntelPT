@@ -33,7 +33,8 @@ Primary benefits include:
 
 * Ensure your CPU is Skylake architecture and you are running on native hardware (not a hypervisor)
 * Boot your Windows 8.1 or Windows 10 OS using boot options that allow loading test signed drivers 
-* Install the WindowsPtDriver using `sc create intelpt BinPath=%cd%\WindowsPtDriver\x64\Release\WindowsPtDriver.sys`
+* Install the WindowsPtDriver using `sc create intelpt BinPath=<path to WindowsPtDriver.sys> type=kernel`
+* Start the intelpt service
 
 **Current Limitations**
  

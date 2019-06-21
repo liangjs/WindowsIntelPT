@@ -4,7 +4,7 @@
  *	Implement Driver Entry point and startup functions
  *  Last revision: 01/06/2016
  *
- *  Copyright© 2016 Andrea Allievi, Richard Johnson
+ *  Copyright?2016 Andrea Allievi, Richard Johnson
  *  TALOS Research and Intelligence Group and Microsoft Ltd
  *  All right reserved
  **********************************************************************/
@@ -14,7 +14,7 @@
 #include "Debug.h"
 #include "UndocNt.h"
 #include "IntelPtXSave.h"
-#include <hv.h>
+#include "hv.h"
 
 const LPTSTR g_lpDevName = L"\\Device\\WindowsIntelPtDev";
 const LPTSTR g_lpDosDevName = L"\\DosDevices\\WindowsIntelPtDev";

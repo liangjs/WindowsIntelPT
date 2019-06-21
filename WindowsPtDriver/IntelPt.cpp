@@ -4,7 +4,7 @@
  *	Implement the Intel Processor Trace driver
  *	Last revision: 01/06/2016
  *
- *  Copyright© 2016 Andrea Allievi, Richard Johnson 
+ *  Copyright?2016 Andrea Allievi, Richard Johnson 
  * 	Microsoft Ltd & TALOS Research and Intelligence Group
  *	All right reserved
  **********************************************************************/
@@ -14,7 +14,7 @@
 #include "Debug.h"
 #include "UndocNt.h"
 #include "IntelPtXSave.h"
-#include <hv.h>
+#include "hv.h"
 #include <intrin.h>
 
 #define DirectoryTableBaseOffset 0x28

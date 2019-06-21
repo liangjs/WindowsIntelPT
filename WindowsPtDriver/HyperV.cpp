@@ -4,13 +4,13 @@
 *  Implements the HyperV support for IntelPt
 *  Last revision: xx/xx/2017
 *
-*  Copyright© 2017 Andrea Allievi, Richard Johnson
+*  Copyright? 2017 Andrea Allievi, Richard Johnson
 *  Microsoft Ltd and TALOS Research and Intelligence Group
 *  All right reserved
 **********************************************************************/
 #include "stdafx.h"
 #include "DriverEntry.h"
-#include <hv.h>
+#include "hv.h"
 #include "Debug.h"
 #include <intrin.h>
 
